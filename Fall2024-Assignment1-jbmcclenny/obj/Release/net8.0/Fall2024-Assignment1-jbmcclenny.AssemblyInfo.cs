@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fall2024-Assignment1-jbmcclenny")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a34667f04b468fd31950b83ee65dbf8711d751")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fall2024-Assignment1-jbmcclenny")]
