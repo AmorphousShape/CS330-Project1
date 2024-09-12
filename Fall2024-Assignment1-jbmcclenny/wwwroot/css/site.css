@@ -1,10 +1,12 @@
+@import url('ubuntuFont.css');
+
 html {
-  font-size: 14px;
+  font-size: 1em;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 2em;
   }
 }
 
@@ -24,10 +26,62 @@ html {
   min-height: 100%;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p.summary {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+ul.standardList {
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.songList {
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0;
+}
+
 body {
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 60px;
   background-color: #4d010e;
+  line-height: 2;
   text-align: center;
-  color: white;
+  text-justify: inter-word; 
+  color: #ffffffcd;
+}
+
+hr.divider {
+  border-top: 1px solid white;
+  width: 80%;
 }
 
